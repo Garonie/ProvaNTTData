@@ -8,7 +8,7 @@ public class LoginPage {
 	@FindBy(id = "btLogar")
 	private WebElement botaoEntrar;
 	
-	@FindBy(name = "")
+	@FindBy(xpath = "")
 	private WebElement campoCPF;
 
 	@FindBy(name = "")

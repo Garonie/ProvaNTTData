@@ -5,14 +5,13 @@ import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
 import pageObjects.CriarContaPage;
 
-public class BaterPontoSteps {
+public class BaterPontoSteps extends CriarContaPage {
 
 	CriarContaPage cp = new CriarContaPage();
 
 	@Dado("que loguei no apontamento de horas")
 	public void que_loguei_no_apontamento_de_horas() {
-		
-		
+				
 	}
 
 	@Dado("eu informar os apontamentos da manha:")
